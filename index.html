@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sube tus Fotos</title>
+    <!-- Incluimos Tailwind CSS para un diseño moderno y responsivo -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <!-- Incluimos una fuente atractiva desde Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;700&display=swap" rel="stylesheet">
+    <style>
+        /* Usamos la fuente Inter para todo el cuerpo de la página */
+        body {
+            font-family: 'Inter', sans-serif;
+        }
+    </style>
+</head>
+<body class="bg-gray-900 text-white flex items-center justify-center min-h-screen p-4">
+
+    <!-- Contenedor principal con un efecto de tarjeta -->
+    <div class="text-center bg-gray-800 p-8 md:p-12 rounded-2xl shadow-2xl max-w-md mx-auto transform hover:scale-105 transition-transform duration-300">
+
+        <!-- Título principal -->
+        <h1 class="text-3xl md:text-4xl font-bold mb-6 text-cyan-400">
+            Sube tus fotos aquí
+        </h1>
+        
+        <!-- Espacio para el Código QR -->
+        <!-- IMPORTANTE: Coloca tu imagen QR en la misma carpeta que este archivo y asegúrate de que el nombre coincida. -->
+        <!-- Por ejemplo, si tu imagen se llama "mi_qr.png", cambia "codigo-qr.png" por "mi_qr.png". -->
+        <div class="bg-white p-4 rounded-lg inline-block mb-8 shadow-inner">
+            <img src="Espacio Digital.png" alt="Código QR para subir fotos" class="w-56 h-56 md:w-64 md:h-64 mx-auto">
+        </div>
+        
+        <!-- Texto de instrucción -->
+        <p class="text-base md:text-lg text-gray-300 animate-pulse">
+            Escanea para subir tus fotos aquí
+        </p>
+
+    </div>
+
+</body>
+</html>
